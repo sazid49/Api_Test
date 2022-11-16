@@ -25,3 +25,6 @@ Route::post('addPost',[PostController::class,'addpost']);
 Route::put('updatePost/{id}',[PostController::class,'updatepost']);
 Route::delete('deletePost/{id}',[PostController::class,'deletepost']);
 Route::get('searchPost/{name}',[PostController::class,'searchpost']);
+
+
+Route::post('upload',[PostController::class,'fileUpload']);

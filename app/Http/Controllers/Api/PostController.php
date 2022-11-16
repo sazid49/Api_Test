@@ -80,4 +80,9 @@ class PostController extends Controller
                         }
 
     }
+
+    public function fileUpload(Request $request)
+    {
+        return ['message'=>'hello'];
+    }
 }
